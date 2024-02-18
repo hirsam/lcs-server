@@ -11,7 +11,7 @@
 2. **Build Docker Image**: Build the Docker image using `docker build -t lcs-server .`.
 3. **Tag the Image**: Tag the Docker image with `docker tag lcs-server [username]/lcs-server:latest`.
 4. **Push to Repository**: Push the tagged image with `docker push [username]/lcs-server:latest`.
-5. **Pull Image on Server**: On your server, pull the Docker image with `docker pull hirsam/lcs-server:latest`.
+5. **Pull Image on Server**: On your server, pull the Docker image with `docker pull [username]/lcs-server:latest`.
 6. **Run Container**: Start a Docker container with `docker run -d -p 8081:8081 --name lcs-server-container [username]/lcs-server:latest`.
 
 ## Running with JAR File
