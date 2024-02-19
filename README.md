@@ -1,6 +1,6 @@
 # LCS Server Deployment and Running Guide
 
-## Deployment with Docker
+## Deployment and running with Docker
 
 ### Prerequisites
 - Docker installed on your system
